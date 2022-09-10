@@ -27,15 +27,15 @@ const HomePage = () => {
   };
 
   return (
-    <div>
-      <p>You are logged to the home page!</p>
+    <section>
+      <h1>Home Page</h1>
 
       <ul>
         {notes.map((note) => (
           <li key={note.id}>{note.body}</li>
         ))}
       </ul>
-    </div>
+    </section>
   );
 };
 
